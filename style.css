@@ -5,6 +5,7 @@ body {
   border-bottom-style: double;
   /* color mappa del malandrino */
   border-color: #3d2416;
+  padding-bottom: 30px;
 }
 
 /* *******************************************++ *//* *******************************************++ */
@@ -26,6 +27,10 @@ body {
   margin-left: 400px;
   /* questi valori aggiungono a decorazione un bordo in basso */
 
+}
+
+.primaRiga{
+  padding-bottom: 50px;
 }
 
 /* *******************************************++ *//* *******************************************++ */
@@ -90,18 +95,27 @@ img {
 
 /* in teoria il cuore è sempre visibile, ma è colorato traspaente quindi è invisibile */
 .cuoreAScomparsa{
-  display: inline;
-  color: rgba(255, 0, 0, 0);
+  display: none;
   font-size: 30px;
+  position: absolute;
 }
 
 .libroCheNONEsiste{
-  display: inline;
-  color: rgba(255, 0, 0, 0);
+  display: none;
   font-size: 28px;
-}
+  left: 125px;
+  position: absolute;
+  }
 
 /* colora di rosso i cuori a scomparsa */
 .containerSingoloElemento:hover :last-child{
+  display: block;
   color: red;
+  left: 125px;
+}
+
+/* fa comparire le emoj a scomparsa di Harry potter & the Cursed Child */
+.cursed.containerSingoloElemento:hover :last-child{
+  display: block;
+  left: 80px;
 }
