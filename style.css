@@ -12,7 +12,7 @@ body {
 /* ***********************************   SEZIONE VETRINA:     ***********************************++ */
 /* *******************************************++ *//* *******************************************++ */
 
-/* questa classe forma la vetrina che contiene le copertine ne indica dimensione bordo  */
+/* questa classe forma la vetrina che contiene le copertine ne indica dimensione e posizione */
 .containerContieniVetrina{
   /* questo valore delimita i bordi della vetrina di rosso trasparente, utile per vedere dimensioni */
   /* background-color: rgba(129, 0, 0, 0.2); */
@@ -20,8 +20,6 @@ body {
   margin-bottom: 15px;
   margin-right: 100px;
   margin-left: 400px;
-  /* questi valori aggiungono a decorazione un bordo in basso */
-
 }
 
 .primaRiga{
