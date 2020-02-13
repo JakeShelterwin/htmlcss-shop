@@ -1,4 +1,4 @@
-/* mette di sfondo l'immagine della pergamena con il blasone di hogwarts e aggiunge il bordo in fondo per decorazione*/
+/* mette di sfondo l'immagine della pergamena con il blasone di hogwarts*/
 body {
   background-image: url(imgs/hpb2.png);
   border-bottom-width: thick;
