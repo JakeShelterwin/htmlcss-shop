@@ -12,11 +12,6 @@ body {
 /* ***********************************   SEZIONE VETRINA:     ***********************************++ */
 /* *******************************************++ *//* *******************************************++ */
 
-/* questa classe centra i cuori rispetto alle copertine */
-.centraTesto {
-  text-align: center;
-}
-
 /* questa classe forma la vetrina che contiene le copertine ne indica dimensione bordo  */
 .containerContieniVetrina{
   /* questo valore delimita i bordi della vetrina di rosso trasparente, utile per vedere dimensioni */
