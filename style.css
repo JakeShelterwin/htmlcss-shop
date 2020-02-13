@@ -5,7 +5,6 @@ body {
   border-bottom-style: double;
   /* color mappa del malandrino */
   border-color: #3d2416;
-  padding-bottom: 30px;
 }
 
 /* *******************************************++ *//* *******************************************++ */
@@ -24,6 +23,10 @@ body {
 
 .primaRiga{
   padding-bottom: 50px;
+}
+
+.secondaRiga{
+  padding-bottom: 30px;
 }
 
 /* *******************************************++ *//* *******************************************++ */
@@ -86,7 +89,7 @@ img {
 /* **************** Queste classi gestiscono l'effetto speciale della scomparsa dei cuori *******++ */
 /* *******************************************++ *//* *******************************************++ */
 
-/* in teoria il cuore è sempre visibile, ma è colorato traspaente quindi è invisibile */
+/* display none dice: questo elemento c'è ma non si vede e non occupa spazio */
 .cuoreAScomparsa{
   display: none;
   font-size: 30px;
