@@ -35,6 +35,8 @@ body {
 
 /* questa classe stabilisce le caratteristiche per le copertine e seleziona solo le immagini che sono figlie di containerSingoloElemento*/
 .containerSingoloElemento img {
+  /* auto è il valore automatico e insieme a width mantiene le propozioni, se lo scrivo lo gestisco io mentre se non lo scrivo lo deve gestire il browser */
+  height: auto;
   width: 250px;
   margin-top: 10px;
   margin-left: 10px;
